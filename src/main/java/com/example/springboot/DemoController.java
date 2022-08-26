@@ -1,6 +1,5 @@
 package com.example.springboot;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +8,7 @@ public class DemoController {
 
     @RequestMapping("/demo")
     public String index() {
-        return "Great Demo: GREEN";
+        return "Great Demo: BLUE";
     }
 
 }
