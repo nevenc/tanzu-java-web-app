@@ -8,7 +8,7 @@ public class DemoController {
 
     @RequestMapping("/demo")
     public String index() {
-        return "Great Demo: GREEN";
+        return "Great Demo: BLUE";
     }
 
 }
